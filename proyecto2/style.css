@@ -1,0 +1,49 @@
+*{ 
+    background-color: hsl(30, 38%, 92%);
+}
+.card{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    margin:100px;
+    margin-left: 450px;
+    padding:2px;
+    width: 500px;
+    border-radius:20px;
+}
+.card__img{
+    width: 250px;
+    border-radius: 20px 0px 0px 20px;
+}
+.card2{
+    background-color:hsl(0, 0%, 100%);
+    width:250px;
+    border-radius:0px 20px 20px 0px;  
+}
+.card2__h6{
+    background-color:hsl(0, 0%, 100%);
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    color:hsl(228, 12%, 48%);
+    margin-right:130px;
+}
+.card2__h2{
+    background-color:hsl(0, 0%, 100%);
+    text-align:justify;
+    font-family:'Fraunces', serif;
+    margin:10px 10px 5px 10px;
+    padding: 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
