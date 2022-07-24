@@ -27,6 +27,7 @@
     color:hsl(0, 0%, 48%);
     margin-right:130px;
     margin-bottom:2px;
+    text-decoration: none;
 }
 .card2__h2{
     background-color:hsl(0, 0%, 100%);
@@ -41,7 +42,7 @@
     font-family:'Montserrat', sans-serif;
     font-size: 12px;
     color:hsl(0, 0%, 48%);
-    margin:10px 30px 15px 20px;
+    margin:10px 30px 10px 20px;
     padding: 2px 0px 0px 0px;
 }
 .card2__price{
@@ -49,14 +50,47 @@
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    margin:0px 0px 0px 20px;
-    padding:1px ;
+    gap:23px;
+    margin:5px 70px 5px 40px;
+    padding:0px 10px 10px 0px ;
 }
-.card2__button{
+h1{
     background-color:hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
-    padding-left: ;
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 27px;
+
+}
+h6{ 
+    background-color:hsl(0, 0%, 100%);
+    font-family:'Montserrat', sans-serif;
+    color:hsl(0, 0%, 48%);
+    padding:5px 1px;
+    text-decoration:line-through;
+    text-decoration-color:hsl(0, 0%, 48%);
+
+
+}
+
+.card2__a{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color:hsl(158, 36%, 37%);
+    display: inline-block;
+    align-items: center;
+    width:205px;
+    height: 30px;
+    margin: 0px 5px 20px 1px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c; 
+}
+.material-symbols-outlined{
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(158, 36%, 37%);
+    margin-right: 10px;
 
 }
 
